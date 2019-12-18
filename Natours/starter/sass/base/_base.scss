@@ -1,0 +1,35 @@
+/********
+ * Partial class always starts with an underscore
+ */
+
+/*
+    Universal setting
+*/
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/*
+
+    Power of Inheritance (all these settings are inherited by all child elements.)
+    It is a best practice to include font-family you want to apply inside the body element.
+*/
+html {
+  //This defines what 1 rem is in this project.
+  font-size: 62.5%;
+}
+
+body {
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height: 1.7;
+  color: $color-grey-dark;
+  padding: 3rem;
+
+  border-box: border-box;
+}

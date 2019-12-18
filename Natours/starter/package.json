@@ -1,0 +1,16 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours second time",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "start": "live-server"
+  },
+  "author": "Kohki",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
